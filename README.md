@@ -9,3 +9,8 @@ All codes are licensed under the GNU General Public License v3.0 (GPLv3).
 You may freely use, modify, and distribute this code under the terms of the GPLv3, which can be found at: https://www.gnu.org/licenses/gpl-3.0.html
 
 By using this code, you agree to comply with the terms of the GPLv3.
+
+Description:
+
+Folder "sketch" contains the Arduino code that you have to upload to ESP32; in "stl_files" there are three 3D projects for the external case and for sensor enclosure.
+If you want to use a generic case, in "images" you'll find all measurements for the holes that need to be made.
