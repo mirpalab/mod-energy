@@ -1,4 +1,4 @@
-Ciò che trovate qui è scritto e gestito dal MIRPALab.
+Ciò che si trova qui è scritto e gestito dal MIRPALab.
 
 Viene fornito "così com'è", senza alcuna garanzia espressa o implicita di alcun tipo, incluse ma non limitate alle garanzie di commerciabilità, idoneità per uno scopo particolare e non violazione.
 
@@ -6,9 +6,9 @@ In nessun caso l'autore sarà ritenuto responsabile per qualsiasi reclamo, danno
 
 Tutti i codici sono concessi in licenza con la GNU General Public License v3.0 (GPLv3).
 
-Puoi usare, modificare e distribuire liberamente questo codice secondo i termini della GPLv3, che può essere trovata su: https://www.gnu.org/licenses/gpl-3.0.html
+È possibile usare, modificare e distribuire liberamente questo codice secondo i termini della GPLv3, che può essere trovata su: https://www.gnu.org/licenses/gpl-3.0.html
 
-Utilizzando questo codice, accetti di rispettare i termini della GPLv3.
+Utilizzando questo codice, si accetta di rispettare i termini della GPLv3.
 
 Descrizione:
 
