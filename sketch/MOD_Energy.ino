@@ -174,7 +174,7 @@ void setup()
 // After "soft reset" the counter will increment; nonetheless, with a value >= 25, ESP32 must send measurement data to the server.
 
 // Server details
-    String server = "modenergy.ew.r.appspot.com";
+    String server = "modenergy.oa.r.appspot.com";
     String resource = "/writeday?id="+String(deviceID)
     +"&t_00="+String(Readings[0].temperature)+"&h_00="+String(Readings[0].humidity)+"&c_00="+String(Readings[0].co2Concentration)
     +"&t_01="+String(Readings[1].temperature)+"&h_01="+String(Readings[1].humidity)+"&c_01="+String(Readings[1].co2Concentration)
