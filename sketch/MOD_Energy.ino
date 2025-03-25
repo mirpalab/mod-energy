@@ -70,7 +70,7 @@
 String deviceID = "00";
 
 // Set APN Details / GPRS credentials
-const char apn[] = "mobile.vodafone.it";
+const char apn[] = "apn.vianova.it";
 const char gprsUser[] = "";
 const char gprsPass[] = "";
 
@@ -168,10 +168,10 @@ void setup()
   {
     Serial.println("Starting data trasmission routine...");
 
-// When count >= 25, the device took 24 measures and it sends the response to serial monitor.
+// When count is equal or greater than 25, the device will have acquired 24 measurements and will send the response to the server.
 // The device wakes up for the 25th time, sends 24 measures, takes a 25th measure but immediately restarts in order to clear RTCRAM
-// Explanation of ">=": a GET request fail-safe has been implemented so if a GET fails, ESP32 will go to deep sleep.
-// After "soft reset" the counter will increment; nonetheless, with a value >= 25, ESP32 must send measurement data to the server.
+// A GET request fail-safe has been implemented so if a GET fails, ESP32 will go to deep sleep: after this "soft reset" the counter
+// will increment; nonetheless, when the value is equal or greater than 25, ESP32 must send measurement data to the server.
 
 // Server details
     String server = "mod-energy-unipa.oa.r.appspot.com";
